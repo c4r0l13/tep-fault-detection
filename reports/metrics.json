@@ -1,0 +1,813 @@
+{
+  "detection_summary": [
+    {
+      "model": "DPCA (2 lags)",
+      "mean_fdr": 0.6713095238095238,
+      "false_alarm_rate": 0.0056547619047619055,
+      "n_components": 65,
+      "faults_fdr_over_90": 11,
+      "median_delay_min": 40.5
+    },
+    {
+      "model": "PCA",
+      "mean_fdr": 0.6438690476190476,
+      "false_alarm_rate": 0.002976190476190476,
+      "n_components": 31,
+      "faults_fdr_over_90": 11,
+      "median_delay_min": 33.0
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "mean_fdr": 0.7725,
+      "false_alarm_rate": 0.14136904761904762,
+      "n_components": 31,
+      "faults_fdr_over_90": 11,
+      "median_delay_min": 24.0
+    }
+  ],
+  "detection_per_fault": [
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 1,
+      "description": "A/C feed ratio, B composition constant (step)",
+      "fdr": 0.99875,
+      "far_pre_onset": 0.0875,
+      "delay_min": 3.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 2,
+      "description": "B composition, A/C ratio constant (step)",
+      "fdr": 0.99375,
+      "far_pre_onset": 0.13125,
+      "delay_min": 24.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 3,
+      "description": "D feed temperature (step)",
+      "fdr": 0.21,
+      "far_pre_onset": 0.2,
+      "delay_min": 252.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 4,
+      "description": "Reactor cooling water inlet temperature (step)",
+      "fdr": 1.0,
+      "far_pre_onset": 0.125,
+      "delay_min": 0.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 5,
+      "description": "Condenser cooling water inlet temperature (step)",
+      "fdr": 0.4675,
+      "far_pre_onset": 0.125,
+      "delay_min": 0.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 6,
+      "description": "A feed loss (step)",
+      "fdr": 1.0,
+      "far_pre_onset": 0.075,
+      "delay_min": 0.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 7,
+      "description": "C header pressure loss (step)",
+      "fdr": 1.0,
+      "far_pre_onset": 0.09375,
+      "delay_min": 0.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 8,
+      "description": "A, B, C feed composition (random variation)",
+      "fdr": 0.9825,
+      "far_pre_onset": 0.0875,
+      "delay_min": 45.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 9,
+      "description": "D feed temperature (random variation)",
+      "fdr": 0.1725,
+      "far_pre_onset": 0.2125,
+      "delay_min": 6.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 10,
+      "description": "C feed temperature (random variation)",
+      "fdr": 0.7625,
+      "far_pre_onset": 0.15,
+      "delay_min": 99.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 11,
+      "description": "Reactor cooling water inlet temperature (random variation)",
+      "fdr": 0.85,
+      "far_pre_onset": 0.16875,
+      "delay_min": 15.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 12,
+      "description": "Condenser cooling water inlet temperature (random variation)",
+      "fdr": 0.99375,
+      "far_pre_onset": 0.15625,
+      "delay_min": 6.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 13,
+      "description": "Reaction kinetics (slow drift)",
+      "fdr": 0.96,
+      "far_pre_onset": 0.0875,
+      "delay_min": 108.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 14,
+      "description": "Reactor cooling water valve (sticking)",
+      "fdr": 1.0,
+      "far_pre_onset": 0.1875,
+      "delay_min": 0.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 15,
+      "description": "Condenser cooling water valve (sticking)",
+      "fdr": 0.2525,
+      "far_pre_onset": 0.09375,
+      "delay_min": 1722.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 16,
+      "description": "Unknown",
+      "fdr": 0.735,
+      "far_pre_onset": 0.175,
+      "delay_min": 42.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 17,
+      "description": "Unknown",
+      "fdr": 0.9775,
+      "far_pre_onset": 0.20625,
+      "delay_min": 63.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 18,
+      "description": "Unknown",
+      "fdr": 0.9225,
+      "far_pre_onset": 0.1375,
+      "delay_min": 225.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 19,
+      "description": "Unknown",
+      "fdr": 0.54625,
+      "far_pre_onset": 0.09375,
+      "delay_min": 24.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 20,
+      "description": "Unknown",
+      "fdr": 0.74,
+      "far_pre_onset": 0.10625,
+      "delay_min": 240.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA, theoretical limits",
+      "fault": 21,
+      "description": "Stream 4 valve fixed at steady-state position",
+      "fdr": 0.6575,
+      "far_pre_onset": 0.26875,
+      "delay_min": 72.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 1,
+      "description": "A/C feed ratio, B composition constant (step)",
+      "fdr": 0.9975,
+      "far_pre_onset": 0.0,
+      "delay_min": 6.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 2,
+      "description": "B composition, A/C ratio constant (step)",
+      "fdr": 0.98625,
+      "far_pre_onset": 0.0,
+      "delay_min": 33.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 3,
+      "description": "D feed temperature (step)",
+      "fdr": 0.0075,
+      "far_pre_onset": 0.01875,
+      "delay_min": NaN,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 4,
+      "description": "Reactor cooling water inlet temperature (step)",
+      "fdr": 0.9775,
+      "far_pre_onset": 0.00625,
+      "delay_min": 0.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 5,
+      "description": "Condenser cooling water inlet temperature (step)",
+      "fdr": 0.24625,
+      "far_pre_onset": 0.00625,
+      "delay_min": 18.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 6,
+      "description": "A feed loss (step)",
+      "fdr": 1.0,
+      "far_pre_onset": 0.00625,
+      "delay_min": 0.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 7,
+      "description": "C header pressure loss (step)",
+      "fdr": 1.0,
+      "far_pre_onset": 0.0,
+      "delay_min": 0.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 8,
+      "description": "A, B, C feed composition (random variation)",
+      "fdr": 0.975,
+      "far_pre_onset": 0.0,
+      "delay_min": 63.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 9,
+      "description": "D feed temperature (random variation)",
+      "fdr": 0.01875,
+      "far_pre_onset": 0.0,
+      "delay_min": NaN,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 10,
+      "description": "C feed temperature (random variation)",
+      "fdr": 0.475,
+      "far_pre_onset": 0.0,
+      "delay_min": 141.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 11,
+      "description": "Reactor cooling water inlet temperature (random variation)",
+      "fdr": 0.64875,
+      "far_pre_onset": 0.0,
+      "delay_min": 18.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 12,
+      "description": "Condenser cooling water inlet temperature (random variation)",
+      "fdr": 0.98875,
+      "far_pre_onset": 0.0,
+      "delay_min": 18.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 13,
+      "description": "Reaction kinetics (slow drift)",
+      "fdr": 0.9525,
+      "far_pre_onset": 0.0,
+      "delay_min": 120.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 14,
+      "description": "Reactor cooling water valve (sticking)",
+      "fdr": 1.0,
+      "far_pre_onset": 0.0,
+      "delay_min": 0.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 15,
+      "description": "Condenser cooling water valve (sticking)",
+      "fdr": 0.02125,
+      "far_pre_onset": 0.0,
+      "delay_min": NaN,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 16,
+      "description": "Unknown",
+      "fdr": 0.36375,
+      "far_pre_onset": 0.0125,
+      "delay_min": 360.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 17,
+      "description": "Unknown",
+      "fdr": 0.92625,
+      "far_pre_onset": 0.00625,
+      "delay_min": 69.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 18,
+      "description": "Unknown",
+      "fdr": 0.905,
+      "far_pre_onset": 0.0,
+      "delay_min": 249.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 19,
+      "description": "Unknown",
+      "fdr": 0.075,
+      "far_pre_onset": 0.0,
+      "delay_min": NaN,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 20,
+      "description": "Unknown",
+      "fdr": 0.51625,
+      "far_pre_onset": 0.0,
+      "delay_min": 240.0,
+      "n_components": 31
+    },
+    {
+      "model": "PCA",
+      "fault": 21,
+      "description": "Stream 4 valve fixed at steady-state position",
+      "fdr": 0.44,
+      "far_pre_onset": 0.00625,
+      "delay_min": 1449.0,
+      "n_components": 31
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 1,
+      "description": "A/C feed ratio, B composition constant (step)",
+      "fdr": 0.99625,
+      "far_pre_onset": 0.0,
+      "delay_min": 9.0,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 2,
+      "description": "B composition, A/C ratio constant (step)",
+      "fdr": 0.985,
+      "far_pre_onset": 0.0,
+      "delay_min": 36.0,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 3,
+      "description": "D feed temperature (step)",
+      "fdr": 0.01,
+      "far_pre_onset": 0.0,
+      "delay_min": NaN,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 4,
+      "description": "Reactor cooling water inlet temperature (step)",
+      "fdr": 1.0,
+      "far_pre_onset": 0.01875,
+      "delay_min": 0.0,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 5,
+      "description": "Condenser cooling water inlet temperature (step)",
+      "fdr": 0.27375,
+      "far_pre_onset": 0.01875,
+      "delay_min": 0.0,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 6,
+      "description": "A feed loss (step)",
+      "fdr": 1.0,
+      "far_pre_onset": 0.0,
+      "delay_min": 0.0,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 7,
+      "description": "C header pressure loss (step)",
+      "fdr": 1.0,
+      "far_pre_onset": 0.0,
+      "delay_min": 0.0,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 8,
+      "description": "A, B, C feed composition (random variation)",
+      "fdr": 0.97625,
+      "far_pre_onset": 0.00625,
+      "delay_min": 57.0,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 9,
+      "description": "D feed temperature (random variation)",
+      "fdr": 0.00625,
+      "far_pre_onset": 0.0125,
+      "delay_min": NaN,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 10,
+      "description": "C feed temperature (random variation)",
+      "fdr": 0.515,
+      "far_pre_onset": 0.0,
+      "delay_min": 147.0,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 11,
+      "description": "Reactor cooling water inlet temperature (random variation)",
+      "fdr": 0.855,
+      "far_pre_onset": 0.0,
+      "delay_min": 18.0,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 12,
+      "description": "Condenser cooling water inlet temperature (random variation)",
+      "fdr": 0.9925,
+      "far_pre_onset": 0.0125,
+      "delay_min": 6.0,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 13,
+      "description": "Reaction kinetics (slow drift)",
+      "fdr": 0.9525,
+      "far_pre_onset": 0.00625,
+      "delay_min": 114.0,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 14,
+      "description": "Reactor cooling water valve (sticking)",
+      "fdr": 1.0,
+      "far_pre_onset": 0.0125,
+      "delay_min": 0.0,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 15,
+      "description": "Condenser cooling water valve (sticking)",
+      "fdr": 0.0225,
+      "far_pre_onset": 0.00625,
+      "delay_min": NaN,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 16,
+      "description": "Unknown",
+      "fdr": 0.4275,
+      "far_pre_onset": 0.01875,
+      "delay_min": 45.0,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 17,
+      "description": "Unknown",
+      "fdr": 0.96875,
+      "far_pre_onset": 0.00625,
+      "delay_min": 60.0,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 18,
+      "description": "Unknown",
+      "fdr": 0.90125,
+      "far_pre_onset": 0.0,
+      "delay_min": 240.0,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 19,
+      "description": "Unknown",
+      "fdr": 0.22625,
+      "far_pre_onset": 0.0,
+      "delay_min": 243.0,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 20,
+      "description": "Unknown",
+      "fdr": 0.5575,
+      "far_pre_onset": 0.0,
+      "delay_min": 240.0,
+      "n_components": 65
+    },
+    {
+      "model": "DPCA (2 lags)",
+      "fault": 21,
+      "description": "Stream 4 valve fixed at steady-state position",
+      "fdr": 0.43125,
+      "far_pre_onset": 0.0,
+      "delay_min": 849.0,
+      "n_components": 65
+    }
+  ],
+  "contributions": {
+    "4": [
+      [
+        "XMV(10)",
+        "Reactor cooling water flow",
+        37.6
+      ],
+      [
+        "XMEAS(9)",
+        "Reactor temperature",
+        36.5
+      ],
+      [
+        "XMEAS(33)",
+        "Purge gas analysis E",
+        1.5
+      ],
+      [
+        "XMEAS(38)",
+        "Product analysis E",
+        1.3
+      ],
+      [
+        "XMEAS(31)",
+        "Purge gas analysis C",
+        1.3
+      ],
+      [
+        "XMEAS(29)",
+        "Purge gas analysis A",
+        1.2
+      ],
+      [
+        "XMEAS(36)",
+        "Purge gas analysis H",
+        1.1
+      ],
+      [
+        "XMEAS(2)",
+        "D feed (stream 2)",
+        1.0
+      ],
+      [
+        "XMV(1)",
+        "D feed flow",
+        1.0
+      ],
+      [
+        "XMEAS(25)",
+        "Reactor feed analysis C",
+        1.0
+      ]
+    ],
+    "6": [
+      [
+        "XMEAS(9)",
+        "Reactor temperature",
+        15.1
+      ],
+      [
+        "XMEAS(20)",
+        "Compressor work",
+        13.4
+      ],
+      [
+        "XMV(10)",
+        "Reactor cooling water flow",
+        13.2
+      ],
+      [
+        "XMV(5)",
+        "Compressor recycle valve",
+        9.5
+      ],
+      [
+        "XMEAS(38)",
+        "Product analysis E",
+        7.0
+      ],
+      [
+        "XMEAS(16)",
+        "Stripper pressure",
+        6.2
+      ],
+      [
+        "XMEAS(1)",
+        "A feed (stream 1)",
+        3.7
+      ],
+      [
+        "XMEAS(21)",
+        "Reactor cooling water outlet temp",
+        3.5
+      ],
+      [
+        "XMEAS(19)",
+        "Stripper steam flow",
+        2.9
+      ],
+      [
+        "XMV(1)",
+        "D feed flow",
+        2.7
+      ]
+    ]
+  },
+  "diagnosis": {
+    "Logistic regression (raw)": {
+      "accuracy": 0.3834280303030303,
+      "macro_f1": 0.411854950652282,
+      "f1_per_class": [
+        0.18461538461538463,
+        0.950363196125908,
+        0.8966304968589377,
+        0.10412573673870335,
+        0.7820069204152249,
+        0.6341463414634146,
+        0.6452159187129551,
+        1.0,
+        0.17824074074074073,
+        0.08867469879518072,
+        0.33210874357090375,
+        0.14091470951792337,
+        0.2949452840020844,
+        0.26804123711340205,
+        0.03975903614457831,
+        0.09614368726888536,
+        0.3937387116195063,
+        0.7263980757666867,
+        0.4865771812080537,
+        0.19883040935672514,
+        0.5729967069154775,
+        0.046335697399527184
+      ],
+      "recall_per_class": [
+        0.12638888888888888,
+        0.98125,
+        0.98125,
+        0.1325,
+        0.98875,
+        0.99125,
+        0.47625,
+        1.0,
+        0.1925,
+        0.115,
+        0.2825,
+        0.1425,
+        0.35375,
+        0.195,
+        0.04125,
+        0.11375,
+        0.40875,
+        0.755,
+        0.3625,
+        0.2125,
+        0.6525,
+        0.06125
+      ],
+      "macro_f1_excl_3_9_15": 0.46167709429197024,
+      "fit_seconds": 0.5
+    },
+    "LightGBM (window features)": {
+      "accuracy": 0.6942234848484848,
+      "macro_f1": 0.7510681286498246,
+      "f1_per_class": [
+        0.46840266751349635,
+        0.9824780976220275,
+        0.9591214154972544,
+        0.231980115990058,
+        0.9813895781637717,
+        0.9806612601372426,
+        0.9974937343358395,
+        0.9949811794228356,
+        0.7641456582633053,
+        0.13904761904761906,
+        0.5418502202643172,
+        0.9561952440550688,
+        0.8445945945945946,
+        0.4251668255481411,
+        0.9974937343358395,
+        0.11004585243851604,
+        0.6432964329643296,
+        0.9725343320848939,
+        0.8450363196125908,
+        0.9718826405867971,
+        0.721351025331725,
+        0.9943502824858758
+      ],
+      "recall_per_class": [
+        0.3414351851851852,
+        0.98125,
+        0.9825,
+        0.35,
+        0.98875,
+        0.9825,
+        0.995,
+        0.99125,
+        0.8525,
+        0.1825,
+        0.615,
+        0.955,
+        0.9375,
+        0.27875,
+        0.995,
+        0.165,
+        0.65375,
+        0.97375,
+        0.8725,
+        0.99375,
+        0.7475,
+        0.99
+      ],
+      "macro_f1_excl_3_9_15": 0.8443381706747339,
+      "fit_seconds": 35.6
+    }
+  }
+}

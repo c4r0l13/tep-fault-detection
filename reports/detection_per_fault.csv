@@ -1,0 +1,64 @@
+model,fault,description,fdr,far_pre_onset,delay_min,n_components
+"PCA, theoretical limits",1,"A/C feed ratio, B composition constant (step)",0.99875,0.0875,3.0,31
+"PCA, theoretical limits",2,"B composition, A/C ratio constant (step)",0.99375,0.13125,24.0,31
+"PCA, theoretical limits",3,D feed temperature (step),0.21,0.2,252.0,31
+"PCA, theoretical limits",4,Reactor cooling water inlet temperature (step),1.0,0.125,0.0,31
+"PCA, theoretical limits",5,Condenser cooling water inlet temperature (step),0.4675,0.125,0.0,31
+"PCA, theoretical limits",6,A feed loss (step),1.0,0.075,0.0,31
+"PCA, theoretical limits",7,C header pressure loss (step),1.0,0.09375,0.0,31
+"PCA, theoretical limits",8,"A, B, C feed composition (random variation)",0.9825,0.0875,45.0,31
+"PCA, theoretical limits",9,D feed temperature (random variation),0.1725,0.2125,6.0,31
+"PCA, theoretical limits",10,C feed temperature (random variation),0.7625,0.15,99.0,31
+"PCA, theoretical limits",11,Reactor cooling water inlet temperature (random variation),0.85,0.16875,15.0,31
+"PCA, theoretical limits",12,Condenser cooling water inlet temperature (random variation),0.99375,0.15625,6.0,31
+"PCA, theoretical limits",13,Reaction kinetics (slow drift),0.96,0.0875,108.0,31
+"PCA, theoretical limits",14,Reactor cooling water valve (sticking),1.0,0.1875,0.0,31
+"PCA, theoretical limits",15,Condenser cooling water valve (sticking),0.2525,0.09375,1722.0,31
+"PCA, theoretical limits",16,Unknown,0.735,0.175,42.0,31
+"PCA, theoretical limits",17,Unknown,0.9775,0.20625,63.0,31
+"PCA, theoretical limits",18,Unknown,0.9225,0.1375,225.0,31
+"PCA, theoretical limits",19,Unknown,0.54625,0.09375,24.0,31
+"PCA, theoretical limits",20,Unknown,0.74,0.10625,240.0,31
+"PCA, theoretical limits",21,Stream 4 valve fixed at steady-state position,0.6575,0.26875,72.0,31
+PCA,1,"A/C feed ratio, B composition constant (step)",0.9975,0.0,6.0,31
+PCA,2,"B composition, A/C ratio constant (step)",0.98625,0.0,33.0,31
+PCA,3,D feed temperature (step),0.0075,0.01875,,31
+PCA,4,Reactor cooling water inlet temperature (step),0.9775,0.00625,0.0,31
+PCA,5,Condenser cooling water inlet temperature (step),0.24625,0.00625,18.0,31
+PCA,6,A feed loss (step),1.0,0.00625,0.0,31
+PCA,7,C header pressure loss (step),1.0,0.0,0.0,31
+PCA,8,"A, B, C feed composition (random variation)",0.975,0.0,63.0,31
+PCA,9,D feed temperature (random variation),0.01875,0.0,,31
+PCA,10,C feed temperature (random variation),0.475,0.0,141.0,31
+PCA,11,Reactor cooling water inlet temperature (random variation),0.64875,0.0,18.0,31
+PCA,12,Condenser cooling water inlet temperature (random variation),0.98875,0.0,18.0,31
+PCA,13,Reaction kinetics (slow drift),0.9525,0.0,120.0,31
+PCA,14,Reactor cooling water valve (sticking),1.0,0.0,0.0,31
+PCA,15,Condenser cooling water valve (sticking),0.02125,0.0,,31
+PCA,16,Unknown,0.36375,0.0125,360.0,31
+PCA,17,Unknown,0.92625,0.00625,69.0,31
+PCA,18,Unknown,0.905,0.0,249.0,31
+PCA,19,Unknown,0.075,0.0,,31
+PCA,20,Unknown,0.51625,0.0,240.0,31
+PCA,21,Stream 4 valve fixed at steady-state position,0.44,0.00625,1449.0,31
+DPCA (2 lags),1,"A/C feed ratio, B composition constant (step)",0.99625,0.0,9.0,65
+DPCA (2 lags),2,"B composition, A/C ratio constant (step)",0.985,0.0,36.0,65
+DPCA (2 lags),3,D feed temperature (step),0.01,0.0,,65
+DPCA (2 lags),4,Reactor cooling water inlet temperature (step),1.0,0.01875,0.0,65
+DPCA (2 lags),5,Condenser cooling water inlet temperature (step),0.27375,0.01875,0.0,65
+DPCA (2 lags),6,A feed loss (step),1.0,0.0,0.0,65
+DPCA (2 lags),7,C header pressure loss (step),1.0,0.0,0.0,65
+DPCA (2 lags),8,"A, B, C feed composition (random variation)",0.97625,0.00625,57.0,65
+DPCA (2 lags),9,D feed temperature (random variation),0.00625,0.0125,,65
+DPCA (2 lags),10,C feed temperature (random variation),0.515,0.0,147.0,65
+DPCA (2 lags),11,Reactor cooling water inlet temperature (random variation),0.855,0.0,18.0,65
+DPCA (2 lags),12,Condenser cooling water inlet temperature (random variation),0.9925,0.0125,6.0,65
+DPCA (2 lags),13,Reaction kinetics (slow drift),0.9525,0.00625,114.0,65
+DPCA (2 lags),14,Reactor cooling water valve (sticking),1.0,0.0125,0.0,65
+DPCA (2 lags),15,Condenser cooling water valve (sticking),0.0225,0.00625,,65
+DPCA (2 lags),16,Unknown,0.4275,0.01875,45.0,65
+DPCA (2 lags),17,Unknown,0.96875,0.00625,60.0,65
+DPCA (2 lags),18,Unknown,0.90125,0.0,240.0,65
+DPCA (2 lags),19,Unknown,0.22625,0.0,243.0,65
+DPCA (2 lags),20,Unknown,0.5575,0.0,240.0,65
+DPCA (2 lags),21,Stream 4 valve fixed at steady-state position,0.43125,0.0,849.0,65
